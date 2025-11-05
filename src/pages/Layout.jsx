@@ -238,7 +238,7 @@ export default function Layout({ children, currentPageName }) {
             {/* Logo */}
             <Link to={createPageUrl("Home")} className="flex items-center">
               <img 
-                src="public/image/header-logo.png" 
+                src="/image/header-logo.png" 
                 alt="Mowo Foundation" 
                 className="h-12 w-auto object-contain"
                 style={{filter: 'drop-shadow(0 2px 8px rgba(16, 185, 129, 0.3))'}}
@@ -340,7 +340,7 @@ export default function Layout({ children, currentPageName }) {
             <div className="lg:col-span-1">
               <Link to={createPageUrl("Home")} className="block mb-6 transform hover:scale-105 transition-transform duration-300">
                 <img 
-                  src="public/image/footer-logo.png" 
+                  src="/image/footer-logo.png" 
                   alt="Mowo Foundation" 
                   className="h-14 w-auto object-contain drop-shadow-2xl"
                 />

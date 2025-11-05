@@ -91,12 +91,12 @@ export default function Home() {
   ];
 
   const galleryImages = [
-    "public/image/image2.png",
-    "public/image/image3.png",
-    "public/image/image4.png",
-    "public/image/image5.png",
-    "public/image/image-6.png",
-    "public/image/image7.png"
+    "/image/image2.png",
+    "/image/image3.png",
+    "/image/image4.png",
+    "/image/image5.png",
+    "/image/image-6.png",
+    "/image/image7.png"
   ];
 
   return (
